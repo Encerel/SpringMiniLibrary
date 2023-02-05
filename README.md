@@ -46,11 +46,11 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 <h3 align="center">👦Person</h3>
 
 | **HTTP METHOD** |       **URL**       | **QUERY PARAMETERS** |                  **DESCRIPTION**                   |
-| :-------------: | :-----------------: | :------------------: | :------------------------------------------------: | --- |
+| :-------------: | :-----------------: | :------------------: | :------------------------------------------------: |
 |     **GET**     |      `/people`      |        `none`        |               Getting all `Persons`                |
 |     **GET**     |   `/people/{id}`    |        `none`        |               Getting `person` by id               |
 |     **GET**     |    `/people/new`    |        `none`        | Redirect to the page with a creation of a `person` |
-|     **GET**     | `/people/{id}/edit` |        `none`        |   Redirect to the page with edditing a `person`    |     |
+|     **GET**     | `/people/{id}/edit` |        `none`        |   Redirect to the page with edditing a `person`    |
 |    **POST**     |      `/people`      |        `none`        |               Create a new `person`                |
 |    **PATCH**    |   `/people/{id}`    |        `none`        |            Update `person` information             |
 |   **DELETE**    |   `/person/{id}`    |        `none`        |               Delete `person` by id                |
@@ -73,3 +73,11 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 |    **PATCH**    | `/book/{id}/assign`  |                              `none`                               |               Assign the `book` to person                |
 |    **PATCH**    | `/book/{id}/release` |                              `none`                               |              Release the `book` from person              |
 |   **DELETE**    |     `/book/{id}`     |                              `none`                               |                   Delete `book` by id                    |
+
+---
+
+<h2 align="center">📟 Demo</h2>
+
+<h3>👩 Person</h3>
+
+# 🔧 Documentation development is in progress ...
