@@ -117,5 +117,7 @@ hs_err_pid*
 replay_pid*
 
 hibernate.properties
-by/yankavets/library/dao
+src/main/java/by/yankavets/library/dao/
+target/classes/
+target/Library
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij+all
