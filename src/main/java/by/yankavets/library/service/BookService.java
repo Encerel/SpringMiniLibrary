@@ -93,7 +93,7 @@ public class BookService {
             return Collections.emptyList();
         }
 
-        List<Book> books = bookRepository.findBookByTitleStartingWith(startingWith);
+        List<Book> books = bookRepository.findBookByTitleStartingWithIgnoreCase(startingWith);
 
         for (Book book : books) {
             Hibernate.initialize(book.getReader());

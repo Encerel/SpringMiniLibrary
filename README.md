@@ -31,7 +31,7 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 
 > _SpringMiniLibrary/src/main/resources/hibernate.properties.origin_
 
-- Download Apache Tomcat 9.\* version
+- Download Apache Tomcat 10.\* version
 
 > *https://tomcat.apache.org/download-90.cgi*
 
