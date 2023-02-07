@@ -121,4 +121,5 @@ src/main/java/by/yankavets/library/dao/
 target/classes/
 target/Library
 HELP.md
+src/main/resources/application.properties
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij+all
