@@ -120,4 +120,5 @@ hibernate.properties
 src/main/java/by/yankavets/library/dao/
 target/classes/
 target/Library
+HELP.md
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij+all
