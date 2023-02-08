@@ -67,7 +67,7 @@ public class PersonController {
         }
 
         personService.save(person);
-        return "redirect: /people";
+        return "redirect:/people";
     }
 
     @GetMapping("/{id}/edit")
@@ -79,7 +79,7 @@ public class PersonController {
         }
 
         model.addAttribute("message", "Such user no exists");
-        return "redirect: /people";
+        return "redirect:/people";
     }
 
     @PatchMapping("/{id}")
@@ -91,13 +91,13 @@ public class PersonController {
             return "people/edit";
         }
         personService.update(id, person);
-        return "redirect: /people";
+        return "redirect:/people";
     }
 
     @DeleteMapping("/{id}")
     public String delete(@PathVariable("id") long id) {
         personService.delete(id);
-        return "redirect: /people";
+        return "redirect:/people";
     }
 
 }

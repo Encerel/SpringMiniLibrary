@@ -54,7 +54,7 @@ public class BookController {
             return "books/new-book";
         }
         bookService.save(book);
-        return "redirect: /books";
+        return "redirect:/books";
     }
 
     @GetMapping("/{id}")
@@ -64,7 +64,7 @@ public class BookController {
 
         if (book.isEmpty()) {
             model.addAttribute("message", "Such book no exists");
-            return "redirect: /books/index";
+            return "redirect:/books/index";
         }
 
         Optional<Person> bookReader = bookService.findBookReader(book.get().getId());
@@ -91,7 +91,7 @@ public class BookController {
         }
 
         model.addAttribute("message", "Such book no exists");
-        return "redirect: /books/index";
+        return "redirect:/books/index";
     }
 
     @PatchMapping("/{id}")
@@ -99,19 +99,19 @@ public class BookController {
 
         bookService.update(id, updatedBook);
 
-        return "redirect: /books";
+        return "redirect:/books";
     }
 
     @DeleteMapping("/{id}")
     public String delete(@PathVariable("id") long id) {
         bookService.delete(id);
-        return "redirect: /books";
+        return "redirect:/books";
     }
 
     @PatchMapping("/{bookId}/release")
     public String takeBookFromPerson(@PathVariable("bookId") long id) {
         bookService.takeBookFromPerson(id);
-        return "redirect: /books/" + id;
+        return "redirect:/books/" + id;
     }
 
     @PatchMapping("/{bookId}/assign")
@@ -119,7 +119,7 @@ public class BookController {
                                      @ModelAttribute("person") Person selectedPerson) {
 
         bookService.assignBookToPerson(bookId, selectedPerson);
-        return "redirect: /books/" + bookId;
+        return "redirect:/books/" + bookId;
     }
 
     @GetMapping("/search")
