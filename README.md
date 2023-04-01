@@ -1,5 +1,14 @@
 <h1 align="center">📚Mini library</h1>
 
+<h2>Description</h2>
+
+> _Simple CRUD apprication. You can:_
+>
+> 1. Perform CRUD-operation on books and people.
+> 2. Search book by title.
+> 3. Use book pagination by sending `page_number + books_per_page` parameters.
+> 4. Sort books by passing `sort_per_year` parameters
+
 <h2>Technologies</h2>
 
 |   **Database**    |                                     [![Postgresql](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)                                     |
@@ -78,6 +87,41 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 
 <h2 align="center">📟 Demo</h2>
 
-<h3>👩 Person</h3>
+<h3 align="center">👩 Person</h3>
 
-# 🔧 Documentation development is in progress ...
+###All people page
+![](/documentation/people.png)
+
+###Person profile #####_Without any books_
+![](/documentation/person-profile.png) #####_With several books_
+![](/documentation/person-profile2.png)
+
+###Person edit profile
+
+![](/documentation/person-edit-profile.png)
+
+###Person create
+
+![](/documentation/person-create.png)
+
+<h3 align="center">📗 Book</h3>
+
+###All books page
+![](/documentation/books.png)
+
+###Book profile
+![](/documentation/book-profile.png)
+
+###Assigned book
+![](/documentation/assigned-book.png)
+
+<h3 align="center">🔎 Search and Pagination 📑</h3>
+
+###Book search
+![](/documentation/book-search.png)
+
+###Sorted by year
+![](/documentation/sorted-per-year.png)
+
+###Pagination _(3 books per page)_
+![](/documentation/pagination-pg-num-3-books-per-page-3.png)
