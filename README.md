@@ -89,52 +89,52 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 
 <h3 align="center">👩 Person</h3>
 
-###All people page
+<h3>All people page</h3>
 
 ![](/documentation/people.png)
 
-###Person profile
+<h3>Person profile</h3>
 
-#####Without any books
+_<h5>Without any books</h5>_
 
 ![](/documentation/person-profile.png)
 
-#####_With several books_
+_<h5>With several books</h5>_
 
 ![](/documentation/person-profile2.png)
 
-###Person edit profile
+<h3>Person edit profile</h3>
 
 ![](/documentation/person-edit-profile.png)
 
-###Person create
+<h3>Person create</h3>
 
 ![](/documentation/person-create.png)
 
 <h3 align="center">📗 Book</h3>
 
-###All books page
+<h3>All books page</h3>
 
 ![](/documentation/books.png)
 
-###Book profile
+<h3>Book profile</h3>
 
 ![](/documentation/book-profile.png)
 
-###Assigned book
+<h3>Assigned book</h3>
 
 ![](/documentation/assigned-book.png)
 
 <h3 align="center">🔎 Search and Pagination 📑</h3>
 
-###Book search
+<h3>Book search</h3>
 
 ![](/documentation/book-search.png)
 
-###Sorted by year
+<h3>Sorted by year</h3>
 
 ![](/documentation/sorted-per-year.png)
 
-###Pagination _(3 books per page)_
+_<h3>Pagination (3 books per page)</h3>_
 
 ![](/documentation/pagination-pg-num-3-books-per-page-3.png)
