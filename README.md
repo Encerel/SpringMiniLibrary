@@ -90,6 +90,7 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 <h3 align="center">👩 Person</h3>
 
 ###All people page
+
 ![](/documentation/people.png)
 
 ###Person profile
