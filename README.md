@@ -92,8 +92,14 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 ###All people page
 ![](/documentation/people.png)
 
-###Person profile #####_Without any books_
-![](/documentation/person-profile.png) #####_With several books_
+###Person profile
+
+#####Without any books
+
+![](/documentation/person-profile.png)
+
+#####_With several books_
+
 ![](/documentation/person-profile2.png)
 
 ###Person edit profile
@@ -107,21 +113,27 @@ git clone https://github.com/Encerel/SpringMiniLibrary.git
 <h3 align="center">📗 Book</h3>
 
 ###All books page
+
 ![](/documentation/books.png)
 
 ###Book profile
+
 ![](/documentation/book-profile.png)
 
 ###Assigned book
+
 ![](/documentation/assigned-book.png)
 
 <h3 align="center">🔎 Search and Pagination 📑</h3>
 
 ###Book search
+
 ![](/documentation/book-search.png)
 
 ###Sorted by year
+
 ![](/documentation/sorted-per-year.png)
 
 ###Pagination _(3 books per page)_
+
 ![](/documentation/pagination-pg-num-3-books-per-page-3.png)
